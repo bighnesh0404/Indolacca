@@ -23,6 +23,10 @@ video {
     color: linen;
 }
 
+.card {
+    border: white;
+}
+
 
 /* footer {
     text-align: center;
@@ -84,8 +88,6 @@ video {
     display: inline-block;
     line-height: 1em;
 }
-
-
 
 .container .box {
     position: relative;
@@ -215,12 +217,10 @@ video {
     .introduction {
         font-size: 12px;
     }
-    
-    .imgBx{
-      
-      margin-left: 12%;
+    .imgBx {
+        margin-left: 12%;
     }
-    .content{
+    .content {
         margin-left: 10%;
     }
 }
