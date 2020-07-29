@@ -24,6 +24,56 @@
     <link rel="stylesheet" href="css/socialmedia.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        .col-md-6 {
+            padding: 0px;
+            border: 3px solid black;
+        }
+        
+        .col-md-3 {
+            padding: 0px;
+            border: 1px solid black;
+            /* background-color: white;
+            color: black;
+            width: 25%;
+            padding: 10px;
+            height: 300px; */
+            padding: 50px;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+        .col-md-3:hover {
+            background-image: url('images/aboutus.jpg');
+            width: 100%;
+            height: 300px;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,16 +94,16 @@
                         <a class="nav-link" href="aboutus.html">About Us</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="product.html">Commodities</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="membership.html">Membership</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="sustainability.html">Sustainability</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog-index.html">Blog</a>
+                        <a class="nav-link" href="blog-index.html">Blogs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -62,20 +112,22 @@
 
             </div>
         </nav>
-        <div class="row">
+        <div class="card">
+
             <video autoplay muted loop>
-                <source src="images/ex1.mp4" type="video/mp4">
-            </video>
+                    <source src="images/ex1.mp4" type="video/mp4">
+                </video>
             <div class="sm-container">
                 <div class="sm-menu">
                     <a href="#"><i class="fab fa-facebook-f fb"></i></a>
                     <a href="#"><i class="fab fa-twitter tw"></i></a>
-                    <a href="#"><i class="fab fa-instagram ins"></i></a>
+                    <a href="#"><i class="fab fa-linkedin in"></i></a>
                     <!-- <a href="#"><i class="fab fa-youtube"></i></a>
-                  <a href="#"><i class="fab fa-whatsapp"></i></a> -->
+                      <a href="#"><i class="fab fa-whatsapp"></i></a> -->
                 </div>
             </div>
         </div>
+
 
         <!--<header>
          <div class="row">
@@ -144,13 +196,13 @@
 
     </section>
 
-    <section class="pb-5" style="background-color: #DCEDC8;" data-aos="fade-right">
+    <!-- <section class="pb-5" style="background-color:white;" data-aos="fade-right">
         <div class="container">
             <div class="row">
-                <h1 class="my-5 mx-3">Commodities We Offer</h1>
+                <h1 class="my-5 mx-3"><a href="product.html">Commodities We Offer</a></h1>
             </div>
             <div class="row">
-                
+
                 <div class="col-md-4">
                     <div class="box" data-aos="fade-right">
                         <div class="imgBx">
@@ -230,7 +282,7 @@
                 </div>
                 <div class="col-md-2"></div>
             </div>
-            <!-- <div class="images glide">
+             <div class="images glide">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
                         <li class="glide__slide">
@@ -325,7 +377,110 @@
                 }).mount();
             </script>
         </div> -->
+    <!-- </section> -->
+
+    <section>
+        <div class="card">
+
+            <div class="card-body">
+                <div class="container">
+                    <h1 class="my-5 mx-3" style="font-family: 'Coda Caption', sans-serif; font-size: 34px;"><a href="product.html">Commodities We Offer</a></h1>
+
+                    <div class="row">
+
+                        <div class="col-md-3">
+                            <!-- <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"> -->
+                            <!-- <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;"> -->
+                            <h4>Nature</h4>
+                            <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            <button class="button">Button</button>
+                            <!-- </div> -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"> -->
+                            <!-- <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;"> -->
+                            <h4>Nature</h4>
+                            <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            <button class="button">Button</button>
+                            <!-- </div> -->
+                        </div>
+
+
+
+                        <div class="col-md-3">
+                            <!-- <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"> -->
+                            <!-- <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;"> -->
+                            <h4>Nature</h4>
+                            <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            <button class="button">Button</button>
+                            <!-- </div> -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"> -->
+                            <!-- <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;"> -->
+                            <h4>Nature</h4>
+                            <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            <button class="button">Button</button>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
+    <section>
+        <div class="card">
+
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="card-title pl-5 pt-5" style="font-family: 'Coda Caption', sans-serif; font-size: 34px;">BLOGS
+                            <hr class="mb-5">
+                        </h1>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6" style="position: relative;">
+                            <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;">
+                                <h4>Nature</h4>
+                                <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style="position: relative;">
+                            <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;">
+                                <h4>Nature</h4>
+                                <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6" style="position: relative;">
+                            <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;">
+                                <h4>Nature</h4>
+                                <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style="position: relative;">
+                            <img src="images/aboutus.jpg" alt="Norway" style="width:100%;height: 300px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                            <div class="text-block" style="position: absolute;top: 40px;left: 40px;color: white;padding-left: 20px;padding-right: 20px;">
+                                <h4>Nature</h4>
+                                <p>GlobEXIM was founded by a team of founders having their respective </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <section class="py-5">
         <center>
             <h1 class="ml6">
@@ -344,8 +499,9 @@
             <div class="inner-footer">
 
                 <div class="footer-items" data-aos="fade-left">
-                    <img src="images/logo.png" width="250" height="70" alt="" loading="lazy">
+                    <img src="images/logo.png" width="250" height="40" alt="" loading="lazy">
                     <br><br>
+
                     <p>
                         Indolacca Shellac Industries Private Limited is a Private incorporated company classified as Non-govt company. It is inolved in Manufacture of other chemical products.
                     </p>
@@ -409,15 +565,62 @@
                     <div class="social-media">
                         <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                     </div>
                 </div>
-
+            </div> 
+            <div class="footer-card text-white">
+                <div class="card-body">
+                    <h5 class="card-title my-3">DEVELOPERS</h5>
+                    <div class="row">
+                        <div class="col-md-1 col-2">
+                            <div class="row mx-4 ">
+                                <img src="images/green.jpg" style="border-radius: 50%; width: 40px; height: 40px;">
+                            </div>
+                            <div class="row text-white mx-4 my-3">
+                                xyz
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-2">
+                            <div class="row mx-4 ">
+                                <img src="images/green.jpg" style="border-radius: 50%; width: 40px; height: 40px;">
+                            </div>
+                            <div class="row text-white mx-4 my-3">
+                                xyz
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-2">
+                            <div class="row mx-4 ">
+                                <img src="images/green.jpg" style="border-radius: 50%; width: 40px; height: 40px;">
+                            </div>
+                            <div class="row text-white mx-4 my-3">
+                                xyz
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-2">
+                            <div class="row mx-4 ">
+                                <img src="images/green.jpg" style="border-radius: 50%; width: 40px; height: 40px;">
+                            </div>
+                            <div class="row text-white mx-4 my-3">
+                                xyz
+                            </div>
+                        </div>
+                        <div class="col-md-1 col-2">
+                            <div class="row mx-4 ">
+                                <img src="images/green.jpg" style="border-radius: 50%; width: 40px; height: 40px;">
+                            </div>
+                            <div class="row text-white mx-4 my-3">
+                                xyz
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="footer-bottom">
-                Copyright &copy; 2020 - <a href="#"> Indo Lacca</a>. All rights reserved. | <a href="#">Email Login</a>(For Official use)
-            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright &copy; 2020 - <a href="#"> Indo Lacca</a>. All rights reserved. | <a href="#">Email Login</a>(For Official use)
+        </div>
         </div>
     </section>
 

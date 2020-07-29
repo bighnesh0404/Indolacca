@@ -23,6 +23,22 @@
     box-sizing: border-box;
 }
 
+.footer-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.footer-card>hr {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 h1 {
     padding: 10px 0;
     font-size: 25px;
@@ -42,7 +58,6 @@ h3 {
 }
 
 h2 {
-    padding: 10px 0;
     color: rgb(248, 239, 239);
     font-size: 16px;
     font-weight: lighter;
@@ -111,6 +126,11 @@ li i {
     padding: 10px;
     background: #357897;
     color: #fff;
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: black;
     font-size: 12px;
 }
 
