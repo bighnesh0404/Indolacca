@@ -23,11 +23,7 @@
 }
 @media (min-width: 320px) and (max-width: 767px) {
     .carousel-img {
-<<<<<<< Updated upstream
-        height: 300px;
-=======
         height: 350px;
->>>>>>> Stashed changes
     }
     .letter {
         font-size: 20px
@@ -41,11 +37,7 @@
 
 @media (min-width: 768px) and (max-width: 1480px) {
     .carousel-img {
-<<<<<<< Updated upstream
-        height: 300px;
-=======
         height: 350px;
->>>>>>> Stashed changes
     }
     .letter {
         font-size: 30px
